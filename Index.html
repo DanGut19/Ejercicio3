@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="form-control">
+        <div class="mb-3 col-3">
+            <label for="exampleFormControlInput1" class="form-label">Kilometros a Metros</label>
+            <input type="number" class="form-control" id="txtN1">
+            <div class="mb-3 col-3">
+                <label for="exampleFormControlInput1" class="form-label">Resultado</label>
+                <input type="number" class="form-control" id="Resultado">
+            </div>
+        </div>  
+        <button type="button" class="btn btn-primary" onclick="Km()">Calcular</button>
+        <br>
+        <br>
+        <div class="mb-3 col-3">
+            <label for="exampleFormControlInput1" class="form-label">Metros a Centimetro</label>
+            <input type="number" class="form-control" id="txtN2">
+            <div class="mb-3 col-3">
+                <label for="exampleFormControlInput1" class="form-label">Resultado</label>
+                <input type="number" class="form-control" id="M">
+            </div>
+        </div>  
+        <button type="button" class="btn btn-primary" onclick="M()">Calcular</button>
+        <br>
+        <br>
+        <div class="mb-3 col-3">
+            <label for="exampleFormControlInput1" class="form-label">Pies a Pulgadas</label>
+            <input type="number" class="form-control" id="txtN3">
+            <div class="mb-3 col-3">
+                <label for="exampleFormControlInput1" class="form-label">Resultado</label>
+                <input type="number" class="form-control" id="Ft">
+            </div>
+        </div>  
+        <button type="button" class="btn btn-primary" onclick="Ft()">Calcular</button>
+        <br>
+        <br>
+        <div class="mb-3 col-3">
+            <label for="exampleFormControlInput1" class="form-label">Yarda a Pulgada</label>
+            <input type="number" class="form-control" id="txtN4">
+            <div class="mb-3 col-3">
+                <label for="exampleFormControlInput1" class="form-label">Resultado</label>
+                <input type="number" class="form-control" id="Yardas">
+            </div>
+        </div>  
+        <button type="button" class="btn btn-primary" onclick="Yardas()">Calcular</button>
+        <br>
+        <br>
+        <button type="button" class="btn btn-danger" onclick="limpiar()">Limpiar</button>
+    </div>
+
+    <script src="js/index.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
